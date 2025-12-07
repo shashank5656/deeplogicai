@@ -1,0 +1,16 @@
+{
+  "per_invoice": [
+    {
+      "invoice_id": "INV001",
+      "is_valid": true,
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "summary": {
+    "total_invoices": 1,
+    "valid_invoices": 1,
+    "invalid_invoices": 0,
+    "error_counts": {}
+  }
+}

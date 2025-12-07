@@ -1,0 +1,71 @@
+[
+  {
+    "invoice_number": "AUFNR34343",
+    "invoice_date": "22.05.2024",
+    "seller_name": "",
+    "seller_address": "",
+    "buyer_name": "Beispielname Unternehmen",
+    "buyer_address": "medical equipment (Deutschland), Albertus-Magnus-Str. 8,, Industriestraße 3, Matternfeld, SL 44624, 12345 Köln Deutschland, Ihre Faxnummer: 0800-12646711, Bestellung AUFNR34343 vom 22.05.2024, Unsere Kundennummer Unser(e) Einkäufer(in) Telefon für Rückfragen Fax für Rückfragen, 11223344 Beispielname 060/1212121 0102860405, Endkundennummer, 7654321, Bitte liefern Sie an: Gewünschtes Lieferdatum, Zentraleinkauf sofort, Beispielname Unternehmen, Albertus-Magnus-Str. 8, Lieferbedingungen, Keine Angabe, Matternfeld, SL 44624, Zahlungsbedingungen, 0 Tage 2,0% Skonto, Pos. Artikelbeschreibung Preis in Menge Einheit Umrechnung Bestellwert, EUR in EUR, 1 Sterilisationsmittel 4 VE 1 VE=20 Stück 64,00, Lief.Art.Nr: 000253655G, Interne Mat.Nr: 49115 16,0000 pro 1 VE, Kostenstelle: 20457, Gesamtwert EUR 64,00, MwSt. 19,00% EUR 12,16, Gesamtwert inkl. MwSt. EUR 76,16",
+    "currency": "EUR",
+    "subtotal": "64,00",
+    "tax_amount": "76,16",
+    "total_amount": "76,16",
+    "line_items": [],
+    "filename": "sample_pdf_1.pdf",
+    "path": "samplespdf\\sample_pdf_1.pdf",
+    "text_snippet": "Seite 1 von 1\nABC Corporation Bestellung AUFNR34343 im Auftrag von 3498578433\nBeispielname Unternehmen\nBeispielname Unternehmen · Albertus-Magnus-Str. 8, Matternfeld, SL 44624 Kundenanschrift\nBeispielname Unternehmen\nmedical equipment (Deutschland)\nAlbertus-Magnus-Str. 8,\nIndustriestraße 3\nMatternfeld, SL 44624\n12345 Köln Deutschland\nIhre Faxnummer: 0800-12646711\nBestellung AUFNR34343 vom 22.05.2024\nUnsere Kundennummer Unser(e) Einkäufer(in) Telefon für Rückfragen Fax für Rückfragen\n11223344 Beispielname 060/1212121 0102860405\nEndkundennummer\n7654321\nBitte liefern Sie an: Gewünschtes Lieferdatum\nZentraleinkauf sofort\nBeispielname Unternehmen\nAlbertus-Magnus-Str. 8, Lieferbedingungen\nKeine Angabe\nMatternfeld, SL 44624\nZahlungsbedingungen\n0 Tage 2,0% Skonto\nPos. Artikelbeschreibung Preis in Menge Einheit Umrechnung Bestellwert\nEUR in EUR\n1 Sterilisationsmittel 4 VE 1 VE=20 Stück 64,00\nLief.Art.Nr: 000253655G\nInterne Mat.Nr: 49115 16,0000 pro 1 VE\nKostenstelle: 20457\nGesamtwert EUR 64,00\n"
+  },
+  {
+    "filename": "sample_pdf_2.pdf",
+    "path": "samplespdf\\sample_pdf_2.pdf",
+    "error": "Traceback (most recent call last):\n  File \"C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pdfplumber\\pdf.py\", line 50, in __init__\n    self.doc = PDFDocument(PDFParser(stream), password=password or \"\")\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pdfminer\\pdfdocument.py\", line 752, in __init__\n    raise PDFSyntaxError(\"No /Root object! - Is this really a PDF?\")\npdfminer.pdfparser.PDFSyntaxError: No /Root object! - Is this really a PDF?\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\Lenovo\\OneDrive\\Documents\\Desktop\\deeplogicai\\invoiceextractor\\extractor.py\", line 226, in extract_folder\n    text = extract_text(str(pdf_path))\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Lenovo\\OneDrive\\Documents\\Desktop\\deeplogicai\\invoiceextractor\\extractor.py\", line 123, in extract_text\n    with pdfplumber.open(pdf_path) as pdf:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pdfplumber\\pdf.py\", line 107, in open\n    return cls(\n           ^^^^\n  File \"C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\pdfplumber\\pdf.py\", line 52, in __init__\n    raise PdfminerException(e)\npdfplumber.utils.exceptions.PdfminerException: No /Root object! - Is this really a PDF?\n"
+  },
+  {
+    "invoice_number": "AUFNR34869",
+    "invoice_date": "28.05.2025",
+    "seller_name": "",
+    "seller_address": "",
+    "buyer_name": "Beispiel Bergbauunternehmen",
+    "buyer_address": "MiningEquip (Deutschland), Cranachstr. 958,, Industriestraße 3, Alt Eileendorf, ST 27780, HH 70325, Deutschland, Ihre Faxnummer: 080-8777567, Bestellung AUFNR34869 vom 28.05.2025, Unsere Kundennummer Unser(e) Einkäufer(in) Telefon für Rückfragen Fax für Rückfragen, 87698553 Name, zufälliger 050/4325324 90823401145, Endkundennummer, 5748943, Bitte liefern Sie an: Gewünschtes Lieferdatum, Zentraleinkauf sofort, Beispiel Bergbauunternehmen, Lieferbedingungen, Beispielstraße 10, Keine Angabe, 80000 München, Zahlungsbedingungen, 0 Tage 2,0% Skonto, Pos. Artikelbeschreibung Preis in Menge Einheit Umrechnung Bestellwert, EUR in EUR, 1 Bohrmaschine 4 VE 1 VE=20 Stück 640,00, Lief.Art.Nr: 000453955M, Interne Mat.Nr: 45505 160,0000 pro 1 VE, Kostenstelle: 19587, 2 Bergmannshelm mit Fackeln 2 VE 1 VE=20 Stück 320,00, Lief.Art.Nr: 000253356M, Interne Mat.Nr: 57306 160,0000 pro 1 VE, Kostenstelle: 19587, 3 Schaufeln 5 VE 1 VE=600 Stück 120,00, S40/5-100[21159], Lief.Art.Nr: WM-00-M/50, Interne Mat.Nr: 21259 24,0000 pro 1 VE, Kostenstelle: 19587, Gesamtwert EUR 1.080,00, MwSt. 19,00% EUR 205,20, Gesamtwert inkl. MwSt. EUR 1.285,20",
+    "currency": "EUR",
+    "subtotal": "1.080,00",
+    "tax_amount": "1.285,20",
+    "total_amount": "1.285,20",
+    "line_items": [],
+    "filename": "sample_pdf_3.pdf",
+    "path": "samplespdf\\sample_pdf_3.pdf",
+    "text_snippet": "Seite 1 von 1\nERT Corporation Bestellung AUFNR34869 im Auftrag von 7892348503\nBeispiel Bergbauunternehmen\nBeispiel Bergbauunternehmen · Cranachstr. 958, Alt Eileendorf, ST 27780 Kundenanschrift\nBeispiel Bergbauunternehmen\nMiningEquip (Deutschland)\nCranachstr. 958,\nIndustriestraße 3\nAlt Eileendorf, ST 27780\nHH 70325\nDeutschland\nIhre Faxnummer: 080-8777567\nBestellung AUFNR34869 vom 28.05.2025\nUnsere Kundennummer Unser(e) Einkäufer(in) Telefon für Rückfragen Fax für Rückfragen\n87698553 Name, zufälliger 050/4325324 90823401145\nEndkundennummer\n5748943\nBitte liefern Sie an: Gewünschtes Lieferdatum\nZentraleinkauf sofort\nBeispiel Bergbauunternehmen\nLieferbedingungen\nBeispielstraße 10\nKeine Angabe\n80000 München\nZahlungsbedingungen\n0 Tage 2,0% Skonto\nPos. Artikelbeschreibung Preis in Menge Einheit Umrechnung Bestellwert\nEUR in EUR\n1 Bohrmaschine 4 VE 1 VE=20 Stück 640,00\nLief.Art.Nr: 000453955M\nInterne Mat.Nr: 45505 160,0000 pro 1 VE\nKostenstelle: 19587\n2 Bergmannshelm mit Fackeln 2 VE 1 VE=20 S"
+  },
+  {
+    "invoice_number": "AUFNR123456",
+    "invoice_date": "02.05.2022",
+    "seller_name": "3 Standard-Monitoring EKG Elektrode / Clinical 5 VE 1 VE=600 Stück 120,00",
+    "seller_address": "S40/5-100[29459]",
+    "buyer_name": "Freiburg Gesundheitszentrum",
+    "buyer_address": "MedEquip (Deutschland) GmbH, München gGmbH, Industriestraße 3 Beispielstraße 10, 80000 München, 12345 Köln, Deutschland, Ihre Faxnummer: 0800-11111111, Bestellung AUFNR123456 vom 02.05.2022, Unsere Kundennummer Unser(e) Einkäufer(in) Telefon für Rückfragen Fax für Rückfragen, 1234567 Deutscher, Herr 030/1212121 0102030405, Endkundennummer, 7654321, Bitte liefern Sie an: Gewünschtes Lieferdatum, Zentraleinkauf sofort, Freiburg Gesundheitszentrum, Lieferbedingungen, Beispielstraße 10, Keine Angabe, 80000 München, Zahlungsbedingungen, 0 Tage 2,0% Skonto, Pos. Artikelbeschreibung Preis in Menge Einheit Umrechnung Bestellwert, EUR in EUR, 1 Schutzmaske Medium 4 VE 1 VE=20 Stück 64,00, Lief.Art.Nr: 000252955H, Interne Mat.Nr: 49305 16,0000 pro 1 VE, Kostenstelle: 19257, 2 Disp Mask small CV_ w/o hook[49306] 2 VE 1 VE=20 Stück 32,00, Lief.Art.Nr: 000252954H, Interne Mat.Nr: 49306 16,0000 pro 1 VE, Kostenstelle: 19257, 3 Standard-Monitoring EKG Elektrode / Clinical 5 VE 1 VE=600 Stück 120,00, S40/5-100[29459], Lief.Art.Nr: WS-00-S/50, Interne Mat.Nr: 29459 24,0000 pro 1 VE, Kostenstelle: 19257, Gesamtwert EUR 216,00, MwSt. 19,00% EUR 41,04, Gesamtwert inkl. MwSt. EUR 257,04",
+    "currency": "EUR",
+    "subtotal": "216,00",
+    "tax_amount": "257,04",
+    "total_amount": "257,04",
+    "line_items": [],
+    "filename": "sample_pdf_4.pdf",
+    "path": "samplespdf\\sample_pdf_4.pdf",
+    "text_snippet": "Seite 1 von 1\nXYZ Corporation Bestellung AUFNR123456 im Auftrag von 9876543210\nFreiburg Gesundheitszentrum München gGmbH\nFreiburg Gesundheitszentrum München gGmbH · Beispielstraße 10 · 80000 München Kundenanschrift\nFreiburg Gesundheitszentrum\nMedEquip (Deutschland) GmbH\nMünchen gGmbH\nIndustriestraße 3 Beispielstraße 10\n80000 München\n12345 Köln\nDeutschland\nIhre Faxnummer: 0800-11111111\nBestellung AUFNR123456 vom 02.05.2022\nUnsere Kundennummer Unser(e) Einkäufer(in) Telefon für Rückfragen Fax für Rückfragen\n1234567 Deutscher, Herr 030/1212121 0102030405\nEndkundennummer\n7654321\nBitte liefern Sie an: Gewünschtes Lieferdatum\nZentraleinkauf sofort\nFreiburg Gesundheitszentrum\nLieferbedingungen\nBeispielstraße 10\nKeine Angabe\n80000 München\nZahlungsbedingungen\n0 Tage 2,0% Skonto\nPos. Artikelbeschreibung Preis in Menge Einheit Umrechnung Bestellwert\nEUR in EUR\n1 Schutzmaske Medium 4 VE 1 VE=20 Stück 64,00\nLief.Art.Nr: 000252955H\nInterne Mat.Nr: 49305 16,0000 pro 1 VE\nKostenstelle: 19257\n2 Disp Ma"
+  },
+  {
+    "invoice_number": "AUFNR89493",
+    "invoice_date": "18.08.2025",
+    "seller_name": "",
+    "seller_address": "",
+    "buyer_name": "Unternehmensunternehmen",
+    "buyer_address": "SuppliesEquip (Deutschland), Auf der Weide 8,, Luchagen,, Nicobrunn, RP 27408, SH 57362 Deutschland, Ihre Faxnummer: 080-9472203, Bestellung AUFNR89493 vom 18.08.2025, Unsere Kundennummer Unser(e) Einkäufer(in) Telefon für Rückfragen Fax für Rückfragen, 9340923 Name, zufälliger 050/4553953 2234989584, Endkundennummer, 23908473, Bitte liefern Sie an: Gewünschtes Lieferdatum, Zentraleinkauf sofort, Unternehmensunternehmen, Lieferbedingungen, Auf der Weide 8,, Keine Angabe, Nicobrunn, RP 27408, Zahlungsbedingungen, 0 Tage 2,0% Skonto, Pos. Artikelbeschreibung Preis in Menge Einheit Umrechnung Bestellwert, EUR in EUR, 1 Hefter- und Stecknadelset 4 VE 1 VE=20 Stück 64,00, Lief.Art.Nr: 000454200U, Interne Mat.Nr: 45505 16,0000 pro 1 VE, Kostenstelle: 20587, 2 Ordner 2 VE 1 VE=20 Stück 32,00, Lief.Art.Nr: 000251110U, Interne Mat.Nr: 57306 16,0000 pro 1 VE, Kostenstelle: 19587, 3 Schaufeln 5 VE 1 VE=600 Stück 120,00, Lief.Art.Nr: 000553912U, Interne Mat.Nr: 21455 24,0000 pro 1 VE, Kostenstelle: 20587, 4 Schaufeln 2 VE 1 VE=600 Stück 48,00, Lief.Art.Nr: 000798310U, Interne Mat.Nr: 20211 24,0000 pro 1 VE, Kostenstelle: 20587, Gesamtwert EUR 264,00, MwSt. 19,00% EUR 50,16, Gesamtwert inkl. MwSt. EUR 314,16",
+    "currency": "EUR",
+    "subtotal": "264,00",
+    "tax_amount": "314,16",
+    "total_amount": "314,16",
+    "line_items": [],
+    "filename": "sample_pdf_5.pdf",
+    "path": "samplespdf\\sample_pdf_5.pdf",
+    "text_snippet": "Seite 1 von 1\nBMN Corporation Bestellung AUFNR89493 im Auftrag von 789949503\nUnternehmensunternehmen\nUnternehmensunternehmen · Auf der Weide 8, Nicobrunn, RP 27408 Kundenanschrift\nUnternehmensunternehmen\nSuppliesEquip (Deutschland)\nAuf der Weide 8,\nLuchagen,\nNicobrunn, RP 27408\nSH 57362 Deutschland\nIhre Faxnummer: 080-9472203\nBestellung AUFNR89493 vom 18.08.2025\nUnsere Kundennummer Unser(e) Einkäufer(in) Telefon für Rückfragen Fax für Rückfragen\n9340923 Name, zufälliger 050/4553953 2234989584\nEndkundennummer\n23908473\nBitte liefern Sie an: Gewünschtes Lieferdatum\nZentraleinkauf sofort\nUnternehmensunternehmen\nLieferbedingungen\nAuf der Weide 8,\nKeine Angabe\nNicobrunn, RP 27408\nZahlungsbedingungen\n0 Tage 2,0% Skonto\nPos. Artikelbeschreibung Preis in Menge Einheit Umrechnung Bestellwert\nEUR in EUR\n1 Hefter- und Stecknadelset 4 VE 1 VE=20 Stück 64,00\nLief.Art.Nr: 000454200U\nInterne Mat.Nr: 45505 16,0000 pro 1 VE\nKostenstelle: 20587\n2 Ordner 2 VE 1 VE=20 Stück 32,00\nLief.Art.Nr: 000251110U\nIn"
+  }
+]

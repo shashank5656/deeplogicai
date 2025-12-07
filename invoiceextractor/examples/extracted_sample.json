@@ -1,0 +1,26 @@
+[
+  {
+    "invoice_number": "INV001",
+    "invoice_date": "22.05.2024",
+
+    "seller_name": "Seller Pvt Ltd",
+    "seller_address": "Delhi",
+
+    "buyer_name": "Buyer Ltd",
+    "buyer_address": "Mumbai",
+
+    "currency": "INR",
+    "subtotal": 1000,
+    "tax_amount": 180,
+    "total_amount": 1180,
+
+    "line_items": [
+      {
+        "description": "Item A",
+        "quantity": 2,
+        "unit_price": 500,
+        "line_total": 1000
+      }
+    ]
+  }
+]
